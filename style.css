@@ -4,6 +4,10 @@
 .carosal-img {
   filter: brightness(60%);
 }
+.carousel-caption-text {
+  top: 25% !important;
+}
+
 @media only screen and (max-width: 576px) {
   /* corosel */
   .carousel-caption-text {
@@ -18,5 +22,15 @@
   }
   .course-description {
     padding-left: 20px;
+  }
+  .carousel-btn {
+    padding: 3px 8px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  /* corosel */
+
+  .carousel-caption-text {
+    top: 16% !important;
   }
 }
