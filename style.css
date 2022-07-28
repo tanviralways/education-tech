@@ -1,3 +1,16 @@
 .unorder-list {
   margin-left: 15rem;
 }
+.carosal-img {
+  filter: brightness(60%);
+}
+@media only screen and (max-width: 576px) {
+  /* corosel */
+  .carousel-caption-text {
+    top: 5% !important;
+    font-size: 10px;
+  }
+  .carousel-caption-text h1 {
+    font-size: 25px;
+  }
+}
