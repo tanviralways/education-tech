@@ -13,4 +13,10 @@
   .carousel-caption-text h1 {
     font-size: 25px;
   }
+  .course-img {
+    width: 100% !important;
+  }
+  .course-description {
+    padding-left: 20px;
+  }
 }
